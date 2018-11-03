@@ -7,94 +7,128 @@ import matplotlib.pylab as plt
 from scipy import ndimage
 from skimage import color
 from skimage.filters import threshold_adaptive
-from math import sqrt
-from math import atan2
-from math import pi
-filename = input("Inserte la dirección de la imagen con el RUN a reconocer: " )
+from math import *
+from numpy import hypot
+
+
+def Normalizar(Vector):
+    suma=0
+    for dato in Vector:
+        suma=suma+dato*dato
+    VectorNormalizado = [x / (sqrt(suma)) for x in Vector]
+
+    return VectorNormalizado
+
+ASD=input("Numero?: ")
 #C:\Users\Claudito\PycharmProjects\ProcesamientoImagenes\Python\images\gray\four_coins.png
 #C:\Users\Claudito\PycharmProjects\ProcesamientoImagenes\Python\images\color\flower.jpg
 #filename = 'C:\Users\Claudito\PycharmProjects\TareaPai2\chr_0\img001-00001.png'
 
 
-image = io.imread(filename)
+file_list = os.listdir(".\chr_0")
+data=[]
+mask_y = np.array([[-1, -2, -1], [0, 0, 0], [1, 2, 1]])
+mask_x = np.array([[-1, 0, 1], [-2, 0, 2], [-1, 0, 1]])
 
-io.imsave("Imagen_Con_BoundingBox.jpg",image, plugin=None)
-imgplot = plt.imshow(image,cmap='gray')
-plt.show()
-
-
-print(type(image))
-print(image.shape)
-
-mask_y = np.array([[-1,-2,-1],[0,0,0],[1,2,1]])
-mask_x = np.array([[-1,0,1],[-2,0,2],[-1,0,1]])
-
-print(type(mask_y))
-print(mask_y)
+for p in file_list:
+    print(p)
+    image = io.imread('.\chr_0\\' + p)
 
 
 
 
 
 
-#Sobel gy:
-
-gy=ndimage.convolve(image,mask_y, mode='constant', cval=0.0)
-
-
-io.imsave("gy.jpg",gy, plugin=None)
-
-#Sobel gx:
-gx=ndimage.convolve(image,mask_x, mode='constant', cval=0.0)
-io.imsave("gx.jpg",gx, plugin=None)
-
-G=np.zeros((len(gy),len(gy[0])),dtype=int)
-
-
-for j in range(len(gy[0])):
-    for i in range(len(gy)):
-        G[i][j]= sqrt((gx[i][j]*gx[i][j])+(gy[i][j]*gy[i][j]))
-
-io.imsave("G.jpg",G, plugin=None)
-
-
-Phi=np.zeros((len(gy),len(gy[0])))
-for j in range(len(gy[0])):
-    for i in range(len(gy)):
-        Phi[i][j]= atan2(gy[i][j],gx[i][j])
 
 
 
 
-#histograma de orientaciones:
-K=16
-angulo=0
-FV=np.zeros(16,dtype=int)
-idx= (((angulo/pi)*K)%K)
-for j in range(len(gy[0])):
-    for i in range(len(gy)):
-        angulo=Phi[i][j]
-        idx = int(round((angulo / 3.1415) * K) % K)
 
-        FV[idx]=FV[idx]+1
+    #Sobel gy:
+
+    gy=ndimage.convolve(image,mask_y, mode='constant', cval=0.0)
 
 
-print(FV[0])
-print(FV[1])
-print(FV[2])
-print(FV[3])
-print(FV[4])
-print(FV[5])
-print(FV[6])
-print(FV[7])
-print(FV[8])
-print(FV[9])
-print(FV[10])
-print(FV[11])
-print(FV[12])
-print(FV[13])
-print(FV[14])
-print(FV[15])
+    #Sobel gx:
+    gx=ndimage.convolve(image,mask_x, mode='constant', cval=0.0)
+
+    G=np.zeros((len(gy),len(gy[0])),dtype='int64')
+
+
+
+    G= hypot(gy,gx)
+
+
+
+    Phi=np.zeros((len(gy),len(gy[0])))
+    for j in range(len(gy[0])):
+        for i in range(len(gy)):
+            Phi[i][j]= atan2(gy[i][j],gx[i][j])
+
+
+
+    if(ASD==1):
+        #histograma de orientaciones conteo simple:
+        K=16
+        angulo=0
+        FV=np.zeros(16)
+        idx= (((angulo/pi)*K)%K)
+        for j in range(len(gy[0])):
+            for i in range(len(gy)):
+                angulo=Phi[i][j]
+                idx = int(round((angulo / pi) * K) % K)
+
+                FV[idx]=FV[idx]+1
+
+        FV=Normalizar(FV)
+        data.append(FV)
+    elif(ASD==2):
+        #histograma de orientaciones conteo ponderado:
+
+        angulo=0
+        FV2=np.zeros(16)
+        idx= (((angulo/pi)*K)%K)
+        for j in range(len(gy[0])):
+            for i in range(len(gy)):
+                angulo=Phi[i][j]
+
+
+                idx = int(round((angulo / pi) * K) % K)
+
+                FV2[idx]=FV2[idx]+G[i][j]
+
+
+        FV2=Normalizar(FV2)
+        print("FV2")
+
+
+    elif(ASD==3):
+        #histograma de orientaciones conteo ponderado:
+
+        angulo=0
+        FV3=np.zeros(16)
+        idx= (((angulo/pi)*K)%K)
+        for j in range(len(gy[0])):
+            for i in range(len(gy)):
+                angulo=Phi[i][j]
+
+
+
+
+
+                valor = ((angulo / pi) * K) % K
+                cielo = int(ceil(valor))
+                piso = int(floor(valor))
+                a = valor - piso
+                b = cielo - valor
+                FV3[cielo] = FV3[cielo] + G[i][j]*b
+                FV3[piso] = FV3[piso] + G[i][j]*a
+
+
+        FV3=Normalizar(FV3)
+        print("FV3")
+np.savez('hola.npz',*data)
+
 
 
 
