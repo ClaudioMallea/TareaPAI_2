@@ -12,6 +12,6 @@ from numpy import hypot
 
 
 
-container = np.load('hola.npz')
-for x in container:
-    print(container[x])
+
+for x in np.load('.\\hola.npz'):
+    print(x)

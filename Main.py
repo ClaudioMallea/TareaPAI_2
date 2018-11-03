@@ -19,118 +19,82 @@ def Normalizar(Vector):
 
     return VectorNormalizado
 
-ASD=input("Numero?: ")
+
 #C:\Users\Claudito\PycharmProjects\ProcesamientoImagenes\Python\images\gray\four_coins.png
 #C:\Users\Claudito\PycharmProjects\ProcesamientoImagenes\Python\images\color\flower.jpg
 #filename = 'C:\Users\Claudito\PycharmProjects\TareaPai2\chr_0\img001-00001.png'
+LISTA=[]
+LISTA.append('K320.npz')
+LISTA.append('K321.npz')
+LISTA.append('K322.npz')
+LISTA.append('K323.npz')
+LISTA.append('K324.npz')
+LISTA.append('K325.npz')
+LISTA.append('K326.npz')
+LISTA.append('K327.npz')
+LISTA.append('K328.npz')
+LISTA.append('K329.npz')
+LISTA.append('K32K.npz')
+
+LISTA2=[]
+LISTA2.append(".\chr_0")
+LISTA2.append(".\chr_1")
+LISTA2.append(".\chr_2")
+LISTA2.append(".\chr_3")
+LISTA2.append(".\chr_4")
+LISTA2.append(".\chr_5")
+LISTA2.append(".\chr_6")
+LISTA2.append(".\chr_7")
+LISTA2.append(".\chr_8")
+LISTA2.append(".\chr_9")
+LISTA2.append(".\chr_K")
+asdf = 0
+for Z in LISTA2:
+
+    file_list = os.listdir(Z)
+    data=[]
+    mask_y = np.array([[-1, -2, -1], [0, 0, 0], [1, 2, 1]])
+    mask_x = np.array([[-1, 0, 1], [-2, 0, 2], [-1, 0, 1]])
+
+    for p in file_list:
+        print(p)
+        image = io.imread(Z+'\\' + p)
 
 
-file_list = os.listdir(".\chr_0")
-data=[]
-mask_y = np.array([[-1, -2, -1], [0, 0, 0], [1, 2, 1]])
-mask_x = np.array([[-1, 0, 1], [-2, 0, 2], [-1, 0, 1]])
+        #Sobel gy:
 
-for p in file_list:
-    print(p)
-    image = io.imread('.\chr_0\\' + p)
+        gy=ndimage.convolve(image,mask_y, mode='constant', cval=0.0)
 
 
+        #Sobel gx:
+        gx=ndimage.convolve(image,mask_x, mode='constant', cval=0.0)
 
+        G=np.zeros((len(gy),len(gy[0])),dtype='int64')
 
 
 
+        G= hypot(gy,gx)
 
 
 
+        Phi=np.zeros((len(gy),len(gy[0])))
+        for j in range(len(gy[0])):
+            for i in range(len(gy)):
+                Phi[i][j]= atan2(gy[i][j],gx[i][j])
 
-
-    #Sobel gy:
-
-    gy=ndimage.convolve(image,mask_y, mode='constant', cval=0.0)
-
-
-    #Sobel gx:
-    gx=ndimage.convolve(image,mask_x, mode='constant', cval=0.0)
-
-    G=np.zeros((len(gy),len(gy[0])),dtype='int64')
-
-
-
-    G= hypot(gy,gx)
-
-
-
-    Phi=np.zeros((len(gy),len(gy[0])))
-    for j in range(len(gy[0])):
-        for i in range(len(gy)):
-            Phi[i][j]= atan2(gy[i][j],gx[i][j])
-
-
-
-    if(ASD==1):
         #histograma de orientaciones conteo simple:
-        K=16
+        K=32
         angulo=0
-        FV=np.zeros(16)
+        FV=np.zeros(32)
         idx= (((angulo/pi)*K)%K)
         for j in range(len(gy[0])):
             for i in range(len(gy)):
                 angulo=Phi[i][j]
                 idx = int(round((angulo / pi) * K) % K)
-
                 FV[idx]=FV[idx]+1
-
         FV=Normalizar(FV)
         data.append(FV)
-    elif(ASD==2):
-        #histograma de orientaciones conteo ponderado:
-
-        angulo=0
-        FV2=np.zeros(16)
-        idx= (((angulo/pi)*K)%K)
-        for j in range(len(gy[0])):
-            for i in range(len(gy)):
-                angulo=Phi[i][j]
-
-
-                idx = int(round((angulo / pi) * K) % K)
-
-                FV2[idx]=FV2[idx]+G[i][j]
-
-
-        FV2=Normalizar(FV2)
-        print("FV2")
-
-
-    elif(ASD==3):
-        #histograma de orientaciones conteo ponderado:
-
-        angulo=0
-        FV3=np.zeros(16)
-        idx= (((angulo/pi)*K)%K)
-        for j in range(len(gy[0])):
-            for i in range(len(gy)):
-                angulo=Phi[i][j]
-
-
-
-
-
-                valor = ((angulo / pi) * K) % K
-                cielo = int(ceil(valor))
-                piso = int(floor(valor))
-                a = valor - piso
-                b = cielo - valor
-                FV3[cielo] = FV3[cielo] + G[i][j]*b
-                FV3[piso] = FV3[piso] + G[i][j]*a
-
-
-        FV3=Normalizar(FV3)
-        print("FV3")
-np.savez('hola.npz',*data)
-
-
-
-
+    np.savez(LISTA[asdf], *data)
+    asdf=asdf+1
 
 
