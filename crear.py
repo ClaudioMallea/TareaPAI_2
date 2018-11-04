@@ -12,6 +12,5 @@ from numpy import hypot
 
 
 
-
-for x in np.load('.\\hola.npz'):
-    print(x)
+k=32
+print(str(k))
