@@ -104,7 +104,8 @@ for K in numeross:
             for j in range(len(gy[0])):
                 for i in range(len(gy)):
                     angulo = Phi[i][j]
-
+                    if (angulo < 0):
+                        angulo = angulo + pi
                     valor = ((angulo / pi) * K) % K
                     cielo = int(ceil(valor))
                     piso = int(floor(valor))

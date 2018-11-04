@@ -101,7 +101,8 @@ for K in numeross:
             for j in range(len(gy[0])):
                 for i in range(len(gy)):
                     angulo = Phi[i][j]
-
+                    if (angulo < 0):
+                        angulo = angulo + pi
                     idx = int(round((angulo / pi) * K) % K)
 
                     FV2[idx] = FV2[idx] + G[i][j]

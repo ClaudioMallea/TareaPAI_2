@@ -88,7 +88,8 @@ if(metodo=="I"):
     for j in range(len(gy[0])):
         for i in range(len(gy)):
             angulo = Phi[i][j]
-
+            if (angulo < 0):
+                angulo = angulo + pi
             valor = ((angulo / pi) * K) % K
             cielo = int(ceil(valor))
             piso = int(floor(valor))
@@ -104,7 +105,7 @@ if(metodo=="I"):
                 FV[piso] = FV[piso] + (G[i][j] * a)
 
     FV = Normalizar(FV)
-
+    print(FV)
 elif(metodo=="P"):
     angulo = 0
 

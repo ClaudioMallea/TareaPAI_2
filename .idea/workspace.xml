@@ -2,33 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="936ae5c1-4380-42ce-8d86-3dd5e40bbc2a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/K32/K320.npz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/K32/K321.npz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/K32/K322.npz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/K32/K323.npz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/K32/K324.npz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/K32/K325.npz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/K32/K326.npz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/K32/K327.npz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/K32/K328.npz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/K32/K329.npz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/K32/K32K.npz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConteoPromediado.py" beforeDir="false" afterPath="$PROJECT_DIR$/ConteoPromediado.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interpolado.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interpolado.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/K320.npz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/K321.npz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/K322.npz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/K323.npz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/K324.npz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/K325.npz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/K326.npz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/K327.npz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/K328.npz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/K329.npz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/K32K.npz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crear.py" beforeDir="false" afterPath="$PROJECT_DIR$/crear.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maP.py" beforeDir="false" afterPath="$PROJECT_DIR$/maP.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,7 +15,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/TareaPai2$crear.coverage" NAME="crear Coverage Results" MODIFIED="1541291869137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TareaPai2$maP.coverage" NAME="maP Coverage Results" MODIFIED="1541331101091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TareaPai2$maP.coverage" NAME="maP Coverage Results" MODIFIED="1541332204245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TareaPai2$Main.coverage" NAME="Main Coverage Results" MODIFIED="1541295691497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TareaPai2$ConteoPromediado.coverage" NAME="ConteoPromediado Coverage Results" MODIFIED="1541297175354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TareaPai2$Interpolado.coverage" NAME="Interpolado Coverage Results" MODIFIED="1541300388864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -49,8 +25,8 @@
       <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1108">
-              <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+            <state relative-caret-position="272">
+              <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -61,8 +37,8 @@
       <file leaf-file-name="ConteoPromediado.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ConteoPromediado.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="102" column="38" lean-forward="true" selection-start-line="102" selection-start-column="38" selection-end-line="102" selection-end-column="38" />
+            <state relative-caret-position="238">
+              <caret line="104" column="44" selection-start-line="104" selection-start-column="44" selection-end-line="104" selection-end-column="44" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -73,8 +49,8 @@
       <file leaf-file-name="Interpolado.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Interpolado.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1272">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="156">
+              <caret line="107" column="44" selection-start-line="107" selection-start-column="44" selection-end-line="107" selection-end-column="44" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -85,8 +61,8 @@
       <file leaf-file-name="maP.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/maP.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="199" column="3" lean-forward="true" selection-start-line="199" selection-start-column="3" selection-end-line="199" selection-end-column="3" />
+            <state relative-caret-position="284">
+              <caret line="98" column="29" lean-forward="true" selection-start-line="98" selection-start-column="29" selection-end-line="98" selection-end-column="29" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -135,8 +111,8 @@
       <list>
         <option value="$PROJECT_DIR$/crear.py" />
         <option value="$PROJECT_DIR$/Main.py" />
-        <option value="$PROJECT_DIR$/Interpolado.py" />
         <option value="$PROJECT_DIR$/ConteoPromediado.py" />
+        <option value="$PROJECT_DIR$/Interpolado.py" />
         <option value="$PROJECT_DIR$/maP.py" />
       </list>
     </option>
@@ -540,10 +516,20 @@
     <entry file="file://$PROJECT_DIR$/test/chr_8/img009-00030.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ConteoPromediado.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="102" column="38" lean-forward="true" selection-start-line="102" selection-start-column="38" selection-end-line="102" selection-end-column="38" />
+        <state relative-caret-position="238">
+          <caret line="104" column="44" selection-start-line="104" selection-start-column="44" selection-end-line="104" selection-end-column="44" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -552,18 +538,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Interpolado.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1272">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1108">
-          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+        <state relative-caret-position="156">
+          <caret line="107" column="44" selection-start-line="107" selection-start-column="44" selection-end-line="107" selection-end-column="44" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -572,8 +548,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/maP.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="199" column="3" lean-forward="true" selection-start-line="199" selection-start-column="3" selection-end-line="199" selection-end-column="3" />
+        <state relative-caret-position="284">
+          <caret line="98" column="29" lean-forward="true" selection-start-line="98" selection-start-column="29" selection-end-line="98" selection-end-column="29" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
