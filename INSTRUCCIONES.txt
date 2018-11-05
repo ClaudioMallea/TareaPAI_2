@@ -1,0 +1,10 @@
+Para generar un mAP se debe ejecutar el archivo: maP.py
+
+esto se demorará aproximadamente 9 minutos,
+
+se pedirá la cantidad K que debe ser: 16,32,64,96 o 128
+
+se pedirá el metodo: I para interpolado
+		     P para ponderado
+		       para simple (no pide nada, solo presione enter)
+

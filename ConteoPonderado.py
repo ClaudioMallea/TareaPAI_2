@@ -19,11 +19,11 @@ def Normalizar(Vector):
 
     return VectorNormalizado
 numeross=[]
-numeross.append(16)
-numeross.append(32)
+#numeross.append(16)
+#numeross.append(32)
 numeross.append(64)
 numeross.append(96)
-numeross.append(128)
+#numeross.append(128)
 for K in numeross:
     #C:\Users\Claudito\PycharmProjects\ProcesamientoImagenes\Python\images\gray\four_coins.png
     #C:\Users\Claudito\PycharmProjects\ProcesamientoImagenes\Python\images\color\flower.jpg

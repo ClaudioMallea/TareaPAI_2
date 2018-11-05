@@ -2,8 +2,94 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="936ae5c1-4380-42ce-8d86-3dd5e40bbc2a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/ConteoPromediado.py" beforeDir="false" afterPath="$PROJECT_DIR$/ConteoPromediado.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interpolado.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interpolado.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConteoPromediado.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/G.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imagen_Con_BoundingBox.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K128I/K1280.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K128I/K1281.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K128I/K1282.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K128I/K1283.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K128I/K1284.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K128I/K1285.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K128I/K1286.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K128I/K1287.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K128I/K1288.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K128I/K1289.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K128I/K128K.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K16I/K160.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K16I/K161.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K16I/K162.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K16I/K163.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K16I/K164.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K16I/K165.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K16I/K166.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K16I/K167.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K16I/K168.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K16I/K169.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K16I/K16K.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K16P/K16K.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K32I/K320.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K32I/K321.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K32I/K322.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K32I/K323.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K32I/K324.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K32I/K325.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K32I/K326.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K32I/K327.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K32I/K328.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K32I/K329.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K32I/K32K.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K32P/K320.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K32P/K321.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K32P/K322.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K32P/K323.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K32P/K324.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K32P/K325.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K32P/K326.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K32P/K327.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K32P/K328.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K32P/K329.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K32P/K32K.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K64I/K640.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K64I/K641.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K64I/K642.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K64I/K643.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K64I/K644.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K64I/K645.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K64I/K646.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K64I/K647.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K64I/K648.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K64I/K649.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K64I/K64K.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K96I/K960.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K96I/K961.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K96I/K962.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K96I/K963.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K96I/K964.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K96I/K965.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K96I/K966.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K96I/K967.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K96I/K968.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K96I/K969.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K96I/K96K.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K96P/K960.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K96P/K961.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K96P/K962.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K96P/K963.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K96P/K964.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K96P/K965.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K96P/K966.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K96P/K967.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K96P/K968.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K96P/K969.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K96P/K96K.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crear.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fv.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hola.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hola1.npz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/maP.py" beforeDir="false" afterPath="$PROJECT_DIR$/maP.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,30 +101,18 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/TareaPai2$crear.coverage" NAME="crear Coverage Results" MODIFIED="1541291869137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TareaPai2$maP.coverage" NAME="maP Coverage Results" MODIFIED="1541332204245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TareaPai2$Main.coverage" NAME="Main Coverage Results" MODIFIED="1541295691497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TareaPai2$ConteoPromediado.coverage" NAME="ConteoPromediado Coverage Results" MODIFIED="1541297175354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TareaPai2$Interpolado.coverage" NAME="Interpolado Coverage Results" MODIFIED="1541300388864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TareaPai2$maP.coverage" NAME="maP Coverage Results" MODIFIED="1541374663429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TareaPai2$Main.coverage" NAME="Main Coverage Results" MODIFIED="1541369763105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TareaPai2$ConteoPromediado.coverage" NAME="ConteoPromediado Coverage Results" MODIFIED="1541365377409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TareaPai2$Interpolado.coverage" NAME="Interpolado Coverage Results" MODIFIED="1541353435437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConteoPromediado.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ConteoPromediado.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="104" column="44" selection-start-line="104" selection-start-column="44" selection-end-line="104" selection-end-column="44" />
+            <state relative-caret-position="258">
+              <caret line="104" column="23" selection-start-line="104" selection-start-column="23" selection-end-line="104" selection-end-column="23" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -49,8 +123,8 @@
       <file leaf-file-name="Interpolado.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Interpolado.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="107" column="44" selection-start-line="107" selection-start-column="44" selection-end-line="107" selection-end-column="44" />
+            <state relative-caret-position="816">
+              <caret line="111" column="36" selection-start-line="111" selection-start-column="36" selection-end-line="111" selection-end-column="36" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -61,23 +135,13 @@
       <file leaf-file-name="maP.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/maP.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="98" column="29" lean-forward="true" selection-start-line="98" selection-start-column="29" selection-end-line="98" selection-end-column="29" />
+            <state relative-caret-position="216">
+              <caret line="279" selection-start-line="279" selection-end-line="279" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="img009-00001.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/chr_8/img009-00001.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="img009-00030.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/chr_8/img009-00030.png">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -98,6 +162,7 @@
       <find>P</find>
       <find>52</find>
       <find>52.</find>
+      <find>PRINT</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\Claudito\PycharmProjects\TareaPai2</dir>
@@ -111,8 +176,8 @@
       <list>
         <option value="$PROJECT_DIR$/crear.py" />
         <option value="$PROJECT_DIR$/Main.py" />
-        <option value="$PROJECT_DIR$/ConteoPromediado.py" />
         <option value="$PROJECT_DIR$/Interpolado.py" />
+        <option value="$PROJECT_DIR$/ConteoPromediado.py" />
         <option value="$PROJECT_DIR$/maP.py" />
       </list>
     </option>
@@ -134,6 +199,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,7 +211,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -155,16 +220,17 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Claudito\PycharmProjects\TareaPai2\K16I" />
+      <recent name="C:\Users\Claudito\PycharmProjects\TareaPai2\K64" />
+      <recent name="C:\Users\Claudito\PycharmProjects\TareaPai2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Claudito\PycharmProjects\TareaPai2\K96P" />
+      <recent name="C:\Users\Claudito\PycharmProjects\TareaPai2\K32P" />
       <recent name="C:\Users\Claudito\PycharmProjects\TareaPai2\K128I" />
       <recent name="C:\Users\Claudito\PycharmProjects\TareaPai2\K96I" />
       <recent name="C:\Users\Claudito\PycharmProjects\TareaPai2\K64I" />
-      <recent name="C:\Users\Claudito\PycharmProjects\TareaPai2\K32I" />
-      <recent name="C:\Users\Claudito\PycharmProjects\TareaPai2\K16I" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Claudito\PycharmProjects\TareaPai2\K64" />
-      <recent name="C:\Users\Claudito\PycharmProjects\TareaPai2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -285,9 +351,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.maP" />
-        <item itemvalue="Python.Interpolado" />
-        <item itemvalue="Python.ConteoPromediado" />
         <item itemvalue="Python.Main" />
+        <item itemvalue="Python.ConteoPromediado" />
+        <item itemvalue="Python.Interpolado" />
         <item itemvalue="Python.crear" />
       </list>
     </recent_temporary>
@@ -307,7 +373,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
@@ -341,6 +406,46 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConteoPromediado.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1598">
+          <caret line="104" column="44" selection-start-line="104" selection-start-column="44" selection-end-line="104" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interpolado.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1649">
+          <caret line="107" column="44" selection-start-line="107" selection-start-column="44" selection-end-line="107" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="100" column="33" selection-start-line="100" selection-start-column="33" selection-end-line="100" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1615">
           <caret line="95" selection-start-line="95" selection-end-line="95" />
           <folding>
@@ -353,9 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -373,9 +475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -462,19 +561,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Imagen_Con_BoundingBox.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/chr_0/img001-00003.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/crear.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -485,24 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/chr_1/img002-00014.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/chr_1/img002-00018.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/chr_1/img002-00024.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/chr_1/img002-00011.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/chr_1/img002-00008.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/chr_1/img002-00001.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/302841008/numpy/core/multiarray.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
@@ -510,26 +582,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/chr_8/img009-00001.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/chr_8/img009-00030.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
+    <entry file="file://$PROJECT_DIR$/ConteoPromediado.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+        <state relative-caret-position="-1054">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ConteoPromediado.py">
+    <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="104" column="44" selection-start-line="104" selection-start-column="44" selection-end-line="104" selection-end-column="44" />
+        <state relative-caret-position="258">
+          <caret line="104" column="23" selection-start-line="104" selection-start-column="23" selection-end-line="104" selection-end-column="23" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -538,8 +604,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Interpolado.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="107" column="44" selection-start-line="107" selection-start-column="44" selection-end-line="107" selection-end-column="44" />
+        <state relative-caret-position="816">
+          <caret line="111" column="36" selection-start-line="111" selection-start-column="36" selection-end-line="111" selection-end-column="36" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -548,8 +614,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/maP.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="98" column="29" lean-forward="true" selection-start-line="98" selection-start-column="29" selection-end-line="98" selection-end-column="29" />
+        <state relative-caret-position="216">
+          <caret line="279" selection-start-line="279" selection-end-line="279" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
